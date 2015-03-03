@@ -13,8 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require skrollr
-//= require skrollr.stylesheets
 //= require_tree .
 //= require 'main'
 
