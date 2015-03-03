@@ -1,6 +1,7 @@
 class MainController < ApplicationController
   def index
-     @slides = Slide.all
-     @bg_divs = Slide.all
+     @slides = @bgdivs = Slide.all
+
+
   end
 end

@@ -5,8 +5,8 @@
       
     <div class="st-pusher">
   
-      <!-- render the bg_divs portion here -->
-      <%= render @bg_divs %> 
+      <!-- render the bgdivs portion here -->
+      <%= render partial: "bgdiv", collection: @bgdivs %>
           
       <div id="skrollr-body">
         <div class="header" id="dragons"></div>
@@ -23,7 +23,7 @@
           
 
           <!-- render the slide portion here. -->
-          <%= render @slides %>
+          <%= render partial: "slide", collection: @slides %>
 
       </div> <!--/skrollr-body -->
 
